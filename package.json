@@ -1,0 +1,17 @@
+{
+  "name": "@mfw/monorepo",
+  "version": "1.0.0",
+  "description": "a micro-frontend workspace architected by qiankun and module federation",
+  "author": "WEI TANG LIN (wtlin1228@gmail.com)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "build:libs": "pnpm --filter './packages/lib-*' --parallel run build",
+    "dev:apps": "pnpm --filter './packages/app-*' --parallel run dev",
+    "build:apps": "pnpm --filter './packages/app-*' --parallel run build",
+    "preview:apps": "pnpm --filter './packages/app-*' --parallel run preview",
+    "dev:host": "pnpm --filter=host run dev",
+    "build:host": "pnpm --filter=host run build",
+    "preview:host": "pnpm --filter=host run preview"
+  }
+}

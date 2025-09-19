@@ -1,0 +1,34 @@
+{
+  "name": "@mfw/qiankun-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.131.27",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@mfw/app-interface": "workspace:^",
+    "@eslint/js": "^9.30.0",
+    "@rsbuild/core": "^1.4.13",
+    "@rsbuild/plugin-react": "^1.3.4",
+    "@tanstack/router-plugin": "^1.131.27",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.35.1"
+  }
+}

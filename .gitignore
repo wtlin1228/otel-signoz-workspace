@@ -1,0 +1,25 @@
+# Node & pnpm standard ignores
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+.pnpm-debug.log.*
+.pnpmfile.cjs
+
+# Dist
+dist/
+
+# Profile
+.rspack-profile-*/
+
+# Local
+.DS_Store
+Thumbs.db
+*.swp
+*.local
+*.log*
+
+# IDE
+.idea/
+.vscode/
+.vscode/*
+!.vscode/extensions.json
