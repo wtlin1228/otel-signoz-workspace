@@ -1,5 +1,6 @@
 import { createRootRoute, Link, Outlet } from '@tanstack/react-router';
 import { APP_CONFIGS } from '../configs';
+import { logInfo } from '../instrument';
 
 export const Route = createRootRoute({
   component: () => (
@@ -17,6 +18,9 @@ export const Route = createRootRoute({
             key={appConfig.id}
             to="/apps/$baseRoute"
             params={{ baseRoute: appConfig.id }}
+            onClick={() => {
+              logInfo('navigate to app', { 'app.id': appConfig.id });
+            }}
           >
             {appConfig.name}
           </Link>

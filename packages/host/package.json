@@ -9,10 +9,16 @@
   },
   "dependencies": {
     "@module-federation/enhanced": "^0.18.3",
+    "@opentelemetry/api-logs": "^0.205.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.205.0",
+    "@opentelemetry/resources": "^2.1.0",
+    "@opentelemetry/sdk-logs": "^0.205.0",
+    "@opentelemetry/semantic-conventions": "^1.37.0",
     "@tanstack/react-router": "^1.131.27",
     "qiankun": "^2.10.16",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "ua-parser-js": "^2.0.5"
   },
   "devDependencies": {
     "@mfw/app-interface": "workspace:^",
