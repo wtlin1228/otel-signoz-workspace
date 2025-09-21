@@ -1,0 +1,5 @@
+# local data
+/docker/clickhouse-setup/data/
+
+# ignore user_scripts that is fetched by init-clickhouse
+/common/clickhouse/user_scripts/
